@@ -81,7 +81,7 @@ Remember: These are just a few ideas to expand CryptoSpace. The key is to strike
 Building CryptoSpace: A Step-by-Step Guide (In-Depth)
 Welcome aboard, space captain! Here's a detailed roadmap to navigate the development of CryptoSpace, your intergalactic crypto trading adventure:
 
-Phase 1: Charting Your Course (Planning & Foundation)
+Phase 1: Charting Your Course (Planning & Foundation)                                                                                                                                                           
 S1-Choosing Your Development Path:
 1)Native App vs. Progressive Web App (PWA):  This is a crucial decision impacting development complexity and reach.
 2)Native App (深いネイティブアプリ, Fukai Neitive Appu): Offers a more immersive experience with access to device features. Requires coding knowledge for specific platforms (Swift for iOS, Java/Kotlin for Android) and submission to respective app stores (Apple App Store, Google Play Store).
