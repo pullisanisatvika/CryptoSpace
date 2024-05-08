@@ -83,13 +83,10 @@ Welcome aboard, space captain! Here's a detailed roadmap to navigate the develop
 
 Phase 1: Charting Your Course (Planning & Foundation)
 S1-Choosing Your Development Path:
--Native App vs. Progressive Web App (PWA):  This is a crucial decision impacting development complexity and reach.
-
--Native App (深いネイティブアプリ, Fukai Neitive Appu): Offers a more immersive experience with access to device features. Requires coding knowledge for specific platforms (Swift for iOS, Java/Kotlin for Android) and submission to respective app stores (Apple App Store, Google Play Store).
-
--Progressive Web App (プログレッシブウェブアプリ, Puroguresshibu Webbu Appuri): Easier to develop (potentially using drag-and-drop builders), accessible through any web browser, but may lack some functionalities compared to native apps.
-
-Consideration: If targeting a broad audience and prioritizing ease of access, a PWA might be ideal. For a more polished experience with deeper device integration, a native app could be the way to go.
+1)Native App vs. Progressive Web App (PWA):  This is a crucial decision impacting development complexity and reach.
+2)Native App (深いネイティブアプリ, Fukai Neitive Appu): Offers a more immersive experience with access to device features. Requires coding knowledge for specific platforms (Swift for iOS, Java/Kotlin for Android) and submission to respective app stores (Apple App Store, Google Play Store).
+3)Progressive Web App (プログレッシブウェブアプリ, Puroguresshibu Webbu Appuri): Easier to develop (potentially using drag-and-drop builders), accessible through any web browser, but may lack some functionalities compared to native apps.
+(Consideration: If targeting a broad audience and prioritizing ease of access, a PWA might be ideal. For a more polished experience with deeper device integration, a native app could be the way to go.)
 
 S2-Selecting Your Development Tools:
 -Coding vs. No-Code:  This depends on your programming proficiency.
