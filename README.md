@@ -82,22 +82,19 @@ Building CryptoSpace: A Step-by-Step Guide (In-Depth)
 Welcome aboard, space captain! Here's a detailed roadmap to navigate the development of CryptoSpace, your intergalactic crypto trading adventure:
 
 Phase 1: Charting Your Course (Planning & Foundation)
+S1-Choosing Your Development Path:
+-Native App vs. Progressive Web App (PWA):  This is a crucial decision impacting development complexity and reach.
 
-Choosing Your Development Path:
+-Native App (深いネイティブアプリ, Fukai Neitive Appu): Offers a more immersive experience with access to device features. Requires coding knowledge for specific platforms (Swift for iOS, Java/Kotlin for Android) and submission to respective app stores (Apple App Store, Google Play Store).
 
-Native App vs. Progressive Web App (PWA):  This is a crucial decision impacting development complexity and reach.
-
-Native App (深いネイティブアプリ, Fukai Neitive Appu): Offers a more immersive experience with access to device features. Requires coding knowledge for specific platforms (Swift for iOS, Java/Kotlin for Android) and submission to respective app stores (Apple App Store, Google Play Store).
-
-Progressive Web App (プログレッシブウェブアプリ, Puroguresshibu Webbu Appuri): Easier to develop (potentially using drag-and-drop builders), accessible through any web browser, but may lack some functionalities compared to native apps.
+-Progressive Web App (プログレッシブウェブアプリ, Puroguresshibu Webbu Appuri): Easier to develop (potentially using drag-and-drop builders), accessible through any web browser, but may lack some functionalities compared to native apps.
 
 Consideration: If targeting a broad audience and prioritizing ease of access, a PWA might be ideal. For a more polished experience with deeper device integration, a native app could be the way to go.
 
-Selecting Your Development Tools:
+S2-Selecting Your Development Tools:
+-Coding vs. No-Code:  This depends on your programming proficiency.
 
-Coding vs. No-Code:  This depends on your programming proficiency.
-
-Coding: For experienced developers, game development engines like Unity or Unreal Engine offer powerful tools and flexibility.
+-Coding: For experienced developers, game development engines like Unity or Unreal Engine offer powerful tools and flexibility.
 No-Code: Beginners can explore no-code app builders like Thunkable or Buildbox. These provide visual development interfaces and pre-built components, streamlining development.
 Recommendation: If you're new to coding, start with a no-code builder. As you gain experience and confidence, you can transition to a game engine for more control and customization.
 
