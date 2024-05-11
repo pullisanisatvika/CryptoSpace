@@ -203,3 +203,35 @@ function updateCryptoText() {
   bitcoinPriceText.setAttribute('value', 'Bitcoin: $' + cryptocurrencies.bitcoin.price.toFixed(2));
   ethereumPriceText.setAttribute('value', 'Ethereum: $' + cryptocurrencies.ethereum.price.toFixed(2));
 }
+function updateCryptoText() {
+  // ... (existing code for updating holdings and prices)
+
+  // Update virtual currency text entity
+  const virtualCurrencyText = document.querySelector("#virtual-currency-text");
+  virtualCurrencyText.setAttribute('value', 'Virtual Currency: $' + virtualCurrency.toFixed(2));
+}
+
+
+// Optional: Simulate fetching data from an external API (replace with actual API call)
+function fetchCryptoData() {function fetchCryptoData() {
+  const apiKey = 'YOUR_API_KEY'; // Replace with your CoinMarketCap API key
+  const url = `https://api.coinmarketcap.com/v1/ticker/?limit=2&ids=bitcoin,ethereum&convert=USD&CMC_PRO_API_KEY=${apiKey}`;
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      // Update cryptocurrency prices based on API data
+      cryptocurrencies.bitcoin.price = parseFloat(data.data.bitcoin.quote.USD.price);
+      cryptocurrencies.ethereum.price = parseFloat(data.data.ethereum.quote.USD.price);
+
+      // Update price history (optional, depending on API data format)
+      cryptocurrencies.bitcoin.priceHistory.push(cryptocurrencies.bitcoin.price);
+      cryptocurrencies.ethereum.priceHistory.push(cryptocurrencies.ethereum.price);
+    })
+    .catch(error => {
+      console.error("Error fetching cryptocurrency data:", error);
+      // Handle potential API errors (e.g., rate limits, invalid key)
+    });
+}
+fetchCryptoData();
+setInterval(fetchCryptoData, 10000); // Update prices every 10 seconds (adjust as needed)
