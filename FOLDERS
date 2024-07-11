@@ -1,0 +1,44 @@
+FOLDERS
+Here is a sample code structure for the CryptoSpace game based on the provided information:
+
+Frontend
+/frontend/
+ /src/
+  /components/
+   Planet.js (React component for a planet)
+   Spaceship.js (React component for a spaceship)
+   TradingInterface.js (React component for the trading interface)
+  /containers/
+   App.js (main React component for the application)
+   Game.js (React component for the game logic)
+  /assets/
+   images/ (folder for images)
+   sounds/ (folder for sounds)
+  index.js (entry point for the frontend application)
+  styles.css (global stylesheet for the application)
+
+Backend
+/backend/
+ /src/
+  /com.example.cryptospace/
+   CryptoSpaceApplication.java (main Java class for the backend application)
+   CryptoSpaceController.java (controller class for handling user requests)
+   CryptoSpaceService.java (service class for handling business logic)
+ /models/
+  Planet.java (Java class for a planet)
+  Spaceship.java (Java class for a spaceship)
+  Trade.java (Java class for a trade)
+ /repositories/
+  PlanetRepository.java (repository class for planets)
+  SpaceshipRepository.java (repository class for spaceships)
+  TradeRepository.java (repository class for trades)
+ /utils/
+  ApiUtils.java (utility class for API interactions)
+  MarketUtils.java (utility class for market simulations)
+
+Other Files
+/aframe-components/
+  PlanetComponent.js (A-Frame component for a planet)
+  SpaceshipComponent.js (A-Frame component for a spaceship)
+package.json (metadata for the frontend project)
+README.md (project documentation)
