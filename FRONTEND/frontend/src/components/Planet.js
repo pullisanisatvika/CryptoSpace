@@ -1,3 +1,4 @@
+import planetImage from '../assets/images/planet_texture.jpg';
 import React from 'eact';
 import { Entity, useFrame } from 'aframe-react';
 
