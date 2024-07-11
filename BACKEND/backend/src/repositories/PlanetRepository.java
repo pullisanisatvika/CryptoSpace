@@ -12,3 +12,17 @@ public interface PlanetRepository extends JpaRepository<Planet, Long> {
 
     Planet findByNameAndGalaxy(String name, String galaxy);
 }
+@Service
+public class PlanetService {
+
+    @Autowired
+    private PlanetRepository planetRepository;
+
+    public List<Planet> searchPlanets(String name) {
+        return planetRepository.findByNameContaining(name);
+    }
+
+    public Planet getPlanetByNameAndGalaxy(String name, String galaxy) {
+        return planetRepository.findByNameAndGalaxy(name, galaxy);
+    }
+}
