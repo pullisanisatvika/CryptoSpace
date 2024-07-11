@@ -1,0 +1,15 @@
+{
+  "name": "aframe-spaceship",
+  "version": "1.0.0",
+  "description": "A-Frame spaceship demo",
+  "main": "index.html",
+  "scripts": {
+    "start": "aframe-inspector"
+  },
+  "dependencies": {
+    "aframe": "^1.2.0"
+  },
+  "devDependencies": {
+    "aframe-inspector": "^1.2.0"
+  }
+}
